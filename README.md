@@ -2,7 +2,7 @@
 
 A comprehensive news category classification system that combines vector embeddings, ChromaDB, DeepSeek reasoning, and clustering analysis to classify news articles and provide detailed explanations.
 
-## 🚀 Features
+##  Features
 
 - **Data Preparation**: Load and clean Kaggle News Category Dataset
 - **Vector Embeddings**: Generate embeddings using ChromaDB + LangChain
@@ -13,7 +13,7 @@ A comprehensive news category classification system that combines vector embeddi
 - **Rich Visualizations**: Interactive plots and dashboards
 - **Example Cases**: Three demonstration cases with detailed analysis
 
-## 📋 Requirements
+##  Requirements
 
 ### Python Dependencies
 ```
@@ -37,7 +37,7 @@ ipykernel==6.29.0
 - **Kaggle News Category Dataset**: Download from [Kaggle](https://www.kaggle.com/datasets/rmisra/news-category-dataset)
 - **DeepSeek API Key**: For AI-powered explanations (optional but recommended)
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone or download the project**
    ```bash
@@ -59,7 +59,7 @@ ipykernel==6.29.0
    export DEEPSEEK_API_KEY="your_deepseek_api_key_here"
    ```
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 ### Option 1: Run Complete Pipeline
 ```python
@@ -83,7 +83,7 @@ generator.generate_embeddings_from_dataframe(preparator.train_df)
 # And so on...
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ML_DL_project/
@@ -111,7 +111,7 @@ ML_DL_project/
     └── example_cases_results.json
 ```
 
-## 🔧 Component Details
+##  Component Details
 
 ### 1. Data Preparation (`1_data_preparation.py`)
 - Loads Kaggle News Category Dataset
@@ -187,7 +187,7 @@ The system demonstrates three specific cases:
 **Ground Truth**: MEDIA
 **Expected Behavior**: Should be correctly classified as MEDIA
 
-## 📈 Output and Results
+##  Output and Results
 
 The pipeline generates:
 
@@ -216,7 +216,7 @@ The pipeline generates:
    - Vector vs DeepSeek comparison
    - Explanation quality assessment
 
-## 🔍 Usage Examples
+##  Usage Examples
 
 ### Basic Usage
 ```python
@@ -253,7 +253,7 @@ deepseek = DeepSeekReasoning(api_key="your_api_key")
 prediction = deepseek.predict_category("Your text", ["POLITICS", "SPORTS", "TECH"])
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Environment Variables
 ```bash
@@ -270,7 +270,7 @@ pipeline = NewsClassificationPipeline(
 )
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -335,7 +335,7 @@ logging.basicConfig(level=logging.DEBUG)
 - `plot_confusion_matrix()`: Confusion matrix plot
 - `create_interactive_dashboard()`: Interactive dashboard
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -343,11 +343,9 @@ logging.basicConfig(level=logging.DEBUG)
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Kaggle News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset)
 - [ChromaDB](https://www.trychroma.com/) for vector storage
@@ -365,5 +363,4 @@ For questions or issues:
 
 ---
 
-**Happy Classifying! 🎉**
 
